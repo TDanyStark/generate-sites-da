@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b61d0d6b73.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // YOUTUBE
+        // 2. This code loads the IFrame Player API code asynchronously.
+        let tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        let firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    </script>
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="banner-layer">
+            <div class="banner-total"></div>
+            <div class="banner-izquierdo"></div>
+            <img src="img1.png" alt="Banner images">
+        </div>
+        <div id="contenedor">
+            <header>
+                <div class="contenedor-header">
+                    <div class="header-logo">
+                        <i class="fa-solid fa-bars"></i>
+                        <img src="LOGO_MARKET.png" alt="">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#/videos">Videos</a></li>
+                                <li><a href="#/series">Series</a></li>
+                                <li><a href="#/agregados">Agregados recientemente</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-titulo">
+                        <div class="searchBox">
+                            
+                            <div class="searchInput">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="search-icon ltr-4z3qvp e1svuwfo1" data-name="MagnifyingGlass" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z" fill="currentColor"></path></svg>
+                                <label for="searchInput" id="searchInput-label" class="visually-hidden">Buscar</label>
+                                <input type="text" id="searchInput" name="searchInput" placeholder="" data-search-input="true" dir="ltr" data-uia="search-box-input" aria-labelledby="searchInput-label" maxlength="80" value="" class="" style="opacity: 1; transition-duration: 300ms;">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <button class="searchTab" tabindex="0" aria-label="Buscar" data-uia="search-box-launcher">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="search-icon ltr-4z3qvp e1svuwfo1" data-name="MagnifyingGlass" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z" fill="currentColor"></path></svg>
+                            </button>
+                        </div>
+                        <h2>Titulo del sitio</h2>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section id="section1">
+                    <div class="contenedor-section1">
+                        <div class="section1-informacion">
+                            <img src="" alt="">
+                            <p>Esto es espacio para texto</p>
+                            <div class="botones-section1">
+                                <div class="boton1">
+                                    <button>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ltr-0 e1mhci4z1" data-name="Play" aria-hidden="true"><path d="M5 2.69127C5 1.93067 5.81547 1.44851 6.48192 1.81506L23.4069 11.1238C24.0977 11.5037 24.0977 12.4963 23.4069 12.8762L6.48192 22.1849C5.81546 22.5515 5 22.0693 5 21.3087V2.69127Z" fill="currentColor"></path></svg>
+                                            <span>Reproducir</span>
+                                    </button>
+                                </div>
+                                
+                            </div>                        
+                        </div>
+                        <div class="section1-play">
+                            
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="section2">
+                    <div class="contenedor-section2">
+                        <div class="section2-info">
+                            <div class="section2-info-titulo">
+                                <h2>Todos los capitulos</h2>
+                            </div>
+                            <div class="section2-info-descripcion">
+                                <ul class="section2-lista-ul">
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section2-videos">
+                            <button class="flechaizquierda">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="contenedor-videos">
+                                
+                            </div>
+                            <template id="template_card_video">
+                                <div class="card-video reproductor">
+                                    <div class="img-card">
+                                        <img src="" alt="">
+                                    </div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </template>
+                            <button class="flechaderecha">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!-- Ventana modal oculta por defecto -->
+                <div id="modal" class="modal-background hidden">
+                    <div class="modal">
+                        <button id="btn-CerrarModal"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                        <h2>Ventana Modal</h2>
+                        <div id="videoYoutube"></div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor-emergente">
+                    <div class="preloader">
+
+                    </div>
+                    <div class="contenedor">
+                        <div class="contenedor-cards-emergente">
+                            
+                        </div>
+                        <template id="template_card_emergente">
+                            <div class="card-video-emergente reproductor">
+                                <div class="img-card">
+                                    <img src="img1.png" alt="">
+                                </div>
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

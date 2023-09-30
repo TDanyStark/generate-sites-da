@@ -1,0 +1,115 @@
+{
+    "info":{
+        "nombre_sitio": "Sitio de prueba",
+        "link_img_titulo": "netflix_title.webp"
+    },
+
+    "videos":[   
+        {   
+            "fecha_subido": "2023-09-20 00:00:00",
+            "tipo": "video",
+            "nombre": "Video 1",
+            "descripcion": "Descripcion del video 1",
+            "link_img": "img1.png",
+            "link_video": "QubZpGgHLME",
+            "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWJftxMz6mbMJXnHbQB3PYu0SALvqOO95Lyq-6yXHbJkHoCPfF1b2qdNjoW1m7h9LPoaHux1AujxSuw2xPFnDklNq5jJ8Ro7uv-DaamiAXrF.webp?r=4f3"
+            
+        },
+        {   
+            "fecha_subido": "2023-09-21 05:00:00",
+            "tipo": "video",
+            "nombre": "Video 2",
+            "descripcion": "Descripcion del video 2",
+            "link_img": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5",
+            "link_video": "jTO8xEXE2Oc",
+            "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABatBqnfXqo_gw145McKu_2xTeOD5xoLuIngJ3vwEbFl9Slqfz_rd9eapHZ-X2eFcoUSuFnituYBHSxQ7WpOt3xZf34uqHHRNr1a7OckBws10Js4SeAmFvzdp87_6ZXNYgw3Hf5eFKjRQ3zH7dOYGptj0NefMIf9UWKL9FWOghwk-sUACz2LW0g.webp?r=96d"
+        },
+        {
+            "fecha_subido": "2023-09-22 10:00:00",
+            "tipo": "video",
+            "nombre": "Video 3",
+            "descripcion": "Descripcion del video 3",
+            "link_img": "img1.png",
+            "link_video": "QubZpGgHLME",
+            "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWJftxMz6mbMJXnHbQB3PYu0SALvqOO95Lyq-6yXHbJkHoCPfF1b2qdNjoW1m7h9LPoaHux1AujxSuw2xPFnDklNq5jJ8Ro7uv-DaamiAXrF.webp?r=4f3"
+        },
+        {
+            "fecha_subido": "2023-09-23 15:00:00",
+            "tipo": "video",
+            "nombre": "Video 4",
+            "descripcion": "Descripcion del video 4",
+            "link_img": "img2.png",
+            "link_video": "jTO8xEXE2Oc",
+            "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABatBqnfXqo_gw145McKu_2xTeOD5xoLuIngJ3vwEbFl9Slqfz_rd9eapHZ-X2eFcoUSuFnituYBHSxQ7WpOt3xZf34uqHHRNr1a7OckBws10Js4SeAmFvzdp87_6ZXNYgw3Hf5eFKjRQ3zH7dOYGptj0NefMIf9UWKL9FWOghwk-sUACz2LW0g.webp?r=96d"
+        }
+    ],
+
+
+    "series":[
+            {
+            "fecha_subido": "2023-09-23 00:00:00",
+            "tipo": "serie",
+            "nombre": "The Witcher",
+            "descripcion": "Geralt de Rivia, un cazador de monstruos mutado, persigue a un poderoso brujo que usa a las personas para sus siniestros fines.",
+            "link_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfacndkjLaoLca2MvPLylFjvfywPC7KDJiukVjxeJBc0kb8Kp_uWkkavEo-Mi3VQX7l_X9LZE3JKGdzBHiOOXnPMzo5v9KApaNS2.webp",
+            "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABatBqnfXqo_gw145McKu_2xTeOD5xoLuIngJ3vwEbFl9Slqfz_rd9eapHZ-X2eFcoUSuFnituYBHSxQ7WpOt3xZf34uqHHRNr1a7OckBws10Js4SeAmFvzdp87_6ZXNYgw3Hf5eFKjRQ3zH7dOYGptj0NefMIf9UWKL9FWOghwk-sUACz2LW0g.webp?r=96d",
+
+            "capitulos": [
+                {
+                    "fecha_subido": "2023-09-23 02:00:00",
+                    "tipo": "capitulo",
+                    "temporada": "1",
+                    "nombre": "capitulo 1",
+                    "descripcion":"Descripcion del Capitulo 1",
+                    "link_img": "img1.png",
+                    "link_video": "jTO8xEXE2Oc",
+                    "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABatBqnfXqo_gw145McKu_2xTeOD5xoLuIngJ3vwEbFl9Slqfz_rd9eapHZ-X2eFcoUSuFnituYBHSxQ7WpOt3xZf34uqHHRNr1a7OckBws10Js4SeAmFvzdp87_6ZXNYgw3Hf5eFKjRQ3zH7dOYGptj0NefMIf9UWKL9FWOghwk-sUACz2LW0g.webp?r=96d"
+                },
+                {
+                    "fecha_subido": "2023-09-23 02:00:00",
+
+                    "tipo": "capitulo",
+                    "temporada": "2",
+                    "nombre": "capitulo 2",
+                    "descripcion":"Descripcion del Capitulo 2",
+                    "link_img": "img2.png",
+                    "link_video": "QubZpGgHLME",
+                    "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWJftxMz6mbMJXnHbQB3PYu0SALvqOO95Lyq-6yXHbJkHoCPfF1b2qdNjoW1m7h9LPoaHux1AujxSuw2xPFnDklNq5jJ8Ro7uv-DaamiAXrF.webp?r=4f3"
+                }
+            ]
+        },
+        {
+            "fecha_subido": "2023-09-24 00:00:00",
+            "tipo": "serie",
+            "nombre": "La casa del papel higienico",
+            "descripcion": "Un grupo de ladrones muy peculiares asalta una Fábrica de Moneda y Timbre para llevar a cabo el atraco más perfecto de la historia de España y llevarse a casa 2.400 millones de euros.",
+            "link_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYLcsd7Ubp-s8f5qrjkSNSVsis8NooDt6dQrtufFoFDze0-BIFaVvf6kED_VQsB_9nS4bZ7jruYnbYUgQvt_u5wJ2tMR0Fu_g_g6.webp?r=29b",
+            "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWJftxMz6mbMJXnHbQB3PYu0SALvqOO95Lyq-6yXHbJkHoCPfF1b2qdNjoW1m7h9LPoaHux1AujxSuw2xPFnDklNq5jJ8Ro7uv-DaamiAXrF.webp?r=4f3",
+            
+            "capitulos": [
+                {
+                    "fecha_subido": "2023-09-25 02:00:00",
+                    "tipo": "capitulo",
+                    "temporada": "1",
+                    "nombre": "capitulo 1",
+                    "descripcion":"Descripcion del Capitulo 1",
+                    "link_img": "img1.png",
+                    "link_video": "jTO8xEXE2Oc",
+                    "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABatBqnfXqo_gw145McKu_2xTeOD5xoLuIngJ3vwEbFl9Slqfz_rd9eapHZ-X2eFcoUSuFnituYBHSxQ7WpOt3xZf34uqHHRNr1a7OckBws10Js4SeAmFvzdp87_6ZXNYgw3Hf5eFKjRQ3zH7dOYGptj0NefMIf9UWKL9FWOghwk-sUACz2LW0g.webp?r=96d"
+                },
+                {
+                    "fecha_subido": "2023-09-25 02:00:00",
+                    "tipo": "capitulo",
+                    "temporada": "2",
+                    "nombre": "capitulo 2",
+                    "descripcion":"Descripcion del Capitulo 2",
+                    "link_img": "img2.png",
+                    "link_video": "QubZpGgHLME",
+                    "link_titulo_img": "https://occ-0-7114-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWJftxMz6mbMJXnHbQB3PYu0SALvqOO95Lyq-6yXHbJkHoCPfF1b2qdNjoW1m7h9LPoaHux1AujxSuw2xPFnDklNq5jJ8Ro7uv-DaamiAXrF.webp?r=4f3"
+                }
+            ]
+
+        }
+    ]
+}
+
