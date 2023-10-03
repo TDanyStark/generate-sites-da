@@ -96,7 +96,6 @@ function widthresize(){
 
     $lisVideos = document.querySelectorAll('.item-lista');
 
-    console.log($lisVideos);
     $lisVideos[active].classList.add('active');
 }
 
@@ -108,6 +107,7 @@ document.addEventListener('DOMContentLoaded', async e  => {
 
     let res = await FetchDatainfo();
     document.querySelector('h2').textContent = res.info.nombre_sitio;
+    document.title = res.info.nombre_sitio;
     let videosenInicio = [];
 
     res.videos.forEach((item) => {
@@ -122,7 +122,6 @@ document.addEventListener('DOMContentLoaded', async e  => {
     // escoger un video aleatorio
     let random = Math.floor(Math.random() * videosenInicio.length);
     let video = videosenInicio[random];
-    console.log(video);
     $bannerPrincipal.src = video.link_img;
 
     document.querySelector('.section1-informacion img').src = video.link_titulo_img;
@@ -224,9 +223,9 @@ flechaderecha.addEventListener('click', () => {
 
 
 
-function onYouTubeIframeAPIReady(youtubeid) {
+function onYouTubeIframeAPIReady(youtubeID) {
     player = new YT.Player('videoYoutube', {
-        videoId: youtubeid,
+        videoId: youtubeID,
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -235,7 +234,7 @@ function onYouTubeIframeAPIReady(youtubeid) {
 }
     // 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
-
+    console.log("event" + event.target.videoTitle);
     if (event.target.videoTitle == '') return;
 
     titleActive = event.target.videoTitle;
@@ -333,8 +332,6 @@ const pintarContenidoEmergente = (contenido) => {
 };
 
 
-
-
 let manejoHash = async (hash, loaded=false) => {
     if(hash === ''){
         console.log('estas en el home');
@@ -384,7 +381,6 @@ let manejoHash = async (hash, loaded=false) => {
 
 
     }else if(hash === '#/search'){
-
         if (loaded) {
             window.location.hash = '';
             return;
@@ -399,6 +395,5 @@ let manejoHash = async (hash, loaded=false) => {
 
 
 window.addEventListener("hashchange", e => {
-    console.log(e.target.location.hash);
     manejoHash(e.target.location.hash);
 });
